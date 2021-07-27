@@ -28,7 +28,7 @@ The application can be run locally or in a docker container, the requirements fo
 * [Maven](https://maven.apache.org/download.cgi)
 
 
-### Docker
+### Docker Requirements
 * [Docker](https://www.docker.com/get-docker)
 
 
@@ -37,10 +37,6 @@ The application can be run locally or in a docker container, the requirements fo
 ```bash
 $ mvn clean test
 ```
-
-Application will run by default on port `1234`
-
-Configure the port by changing `server.port` in __application.yml__
 
 
 ### Run Tests using Docker
