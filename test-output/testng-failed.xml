@@ -1,15 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Podium(failed)">
+<suite name="Failed suite [podium-suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TC_VerifyDemoPage(failed)">
     <classes>
-      <class name="tests.TC_VerifyTitle">
+      <class name="tests.TC_VerifyDemoPage">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="verifyTitle"/>
+          <include name="verifyDemo"/>
         </methods>
-      </class> <!-- tests.TC_VerifyTitle -->
+      </class> <!-- tests.TC_VerifyDemoPage -->
     </classes>
-  </test> <!-- Podium(failed) -->
-</suite> <!-- Failed suite [Default Suite] -->
+  </test> <!-- TC_VerifyDemoPage(failed) -->
+  <test thread-count="5" name="tests.TC_VerifyLoginPage(failed)">
+    <classes>
+      <class name="tests.TC_VerifyLoginPage">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyLogin"/>
+        </methods>
+      </class> <!-- tests.TC_VerifyLoginPage -->
+    </classes>
+  </test> <!-- tests.TC_VerifyLoginPage(failed) -->
+  <test thread-count="5" name="TC_VerifyPricingPage(failed)">
+    <classes>
+      <class name="tests.TC_VerifyPricingPage">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyPricingPage"/>
+        </methods>
+      </class> <!-- tests.TC_VerifyPricingPage -->
+    </classes>
+  </test> <!-- TC_VerifyPricingPage(failed) -->
+</suite> <!-- Failed suite [podium-suite] -->

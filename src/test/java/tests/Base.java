@@ -43,22 +43,22 @@ public class Base {
         if (System.getProperty("BROWSER") !=null &&
                 System.getProperty("BROWSER").equalsIgnoreCase("chrome")){
             ChromeOptions options = new ChromeOptions();
-            options.addArguments("--headless", "--whitelisted-ips", "--no-sandbox","--disable-gpu", "--disable-web-security");
 
                 driver = new RemoteWebDriver(new URL("http://" + host + ":4444/wd/hub"), options);
 
         }
+
     if (System.getProperty("BROWSER") !=null &&
             System.getProperty("BROWSER").equalsIgnoreCase("firefox")){
             FirefoxOptions options = new FirefoxOptions();
             driver = new RemoteWebDriver(new URL("http://" + host + ":4444/wd/hub"), options);
 
         }
-        else{
-            ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless", "--whitelisted-ips", "--no-sandbox","--disable-gpu", "--disable-web-security");
-            driver = new RemoteWebDriver(new URL("http://"+ host+ ":4444/wd/hub"), options);
-        }
+    if(System.getProperty("BROWSER") == null){
+        WebDriverManager.chromedriver().setup();
+        driver = new ChromeDriver();
+    }
+
 
         log.info("Driver is initialized");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
