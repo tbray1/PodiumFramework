@@ -1,0 +1,12 @@
+tests/TC_VerifyPricingPage.class
+pages/HomePage.class
+tests/TC_VerifyContact.class
+pages/DemoPage.class
+tests/TC_VerifyLoginPage.class
+tests/TC_VerifyDemoPage.class
+pages/SignUpPage.class
+tests/TC_VerifyLinks.class
+pages/PricingPage.class
+tests/TC_VerifyTitle.class
+tests/Base.class
+pages/LoginPage.class

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="podium-suite" parallel="tests">
+    <test name="TC_VerifyContact">
+        <classes>
+            <class name="tests.TC_VerifyContact">
+                <methods>
+                    <include name="verifyContactForm"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+            <test name="TC_VerifyLinks">
+                <classes>
+                    <class name="tests.TC_VerifyLinks"/>
+                </classes>
+            </test>
+            <test name="TC_VerifyDemoPage">
+                <classes>
+                    <class name="tests.TC_VerifyDemoPage"/>
+                </classes>
+            </test>
+            <test name="tests.TC_VerifyLoginPage">
+                <classes>
+                    <class name="tests.TC_VerifyLoginPage"/>
+                </classes>
+            </test>
+            <test name="TC_VerifyPricingPage">
+                <classes>
+                    <class name="tests.TC_VerifyPricingPage"/>
+                </classes>
+            </test>
+            <test name="TC_VerifyTitle">
+                <classes>
+                    <class name="tests.TC_VerifyTitle"/>
+                </classes>
+            </test>
+</suite>
