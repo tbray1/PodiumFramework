@@ -41,13 +41,10 @@ $ mvn clean test
 
 ### Run Tests using Docker
 
-First build the image:
-```bash
-$ docker-compose build
-```
-
-When ready, run it:
 ```bash
 $ docker-compose up
 ```
+
+
+
 
