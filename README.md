@@ -1,20 +1,4 @@
-<h1 align="center"> Project Title </h1> <br>
-
-<p align="center">
-  Sample microservice description.
-</p>
-
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Requirements](#requirements)
-- [Quick Start](#quick-start)
-- [Testing](#testing)
-- [API](#requirements)
-- [Acknowledgements](#acknowledgements)
-
+<h1 align="center"> Podium Coding Challenge </h1> <br>
 
 
 
