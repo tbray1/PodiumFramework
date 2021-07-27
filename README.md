@@ -18,7 +18,7 @@ Selenium Framework for podium coding challenge that includes 6 test cases
 
 
 ## Requirements
-The application can be run locally or in a docker container, the requirements for each setup are listed below.
+The tests can be run locally or in a docker container, the requirements for each setup are listed below.
 
 
 
