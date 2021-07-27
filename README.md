@@ -26,6 +26,7 @@ The application can be run locally or in a docker container, the requirements fo
 ### Local Requirements
 * [Java](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 * [Maven](https://maven.apache.org/download.cgi)
+* [Chrome](https://www.google.com/chrome/)
 
 
 ### Docker Requirements
