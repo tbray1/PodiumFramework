@@ -1,10 +1,7 @@
-<h1 align="center"> Podium Coding Challenge </h1> <br>
+<h1 align="center"> Selenium Framework </h1> <br>
 
 
 
-## Introduction
-
-Selenium Framework for podium coding challenge that includes 6 test cases
 
 ## Technologies
 
